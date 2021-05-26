@@ -1,0 +1,1 @@
+Responsive wedding page with full page cover header.

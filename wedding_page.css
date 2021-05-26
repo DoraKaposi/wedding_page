@@ -1,0 +1,423 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: URL('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat fixed center;
+  text-align: center;
+  color: #444349;
+  width: 100vw;
+  font-size:1.125rem;
+  
+}
+
+
+h1{
+  font-family: 'great vibes';
+  font-size: 3rem;
+  padding: 1.5rem 0;
+}
+@media(min-width:768px){
+  h1{
+    margin-bottom: 2rem;
+  }
+}
+
+h2{
+  font-family: 'libre baskerville';
+  font-size: 1.5rem;
+  font-weight: 700;
+ 
+}
+img{
+  height: 7.5rem;
+  width: auto;
+  margin: 1.875rem;
+}
+
+a{
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover{
+  color: #eda087;
+}
+
+.strong{
+  font-weight: 700;
+}
+
+
+
+/*Header from here*/
+
+header{
+width:100vw;
+height: auto;   background:URL('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center;
+Background-size:cover;
+Display:table;
+Text-align:center;
+Color: #fff;
+
+}
+
+@media(min-width:768px){
+  header{  
+background:URL('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center center; 
+background-size: cover;
+    background-origin: border-box;
+    height:100vh;
+    
+}
+}
+
+Header .wrapper{
+Display:table-cell;
+Vertical-align: middle;
+Height :100vh;
+Width:100vw;
+}
+.headline {
+Display:block;
+Background: hsla(100,0%,0%,.6);
+Width: 100vw;
+Height: auto;
+Padding: 1rem;
+} 
+
+@media(min-width:768px){
+  .headline{
+    Width:50%;
+    margin: 0 auto;
+    padding:1.25rem;
+    border-radius:4px;
+  }
+}
+
+H5 hr {
+Display:inline-block;
+Width:5%;
+} 
+
+/* need the demo how to create horizontal inline lines..*/
+.date::before, .date::after {
+    display: inline-block;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 1.5rem;
+    vertical-align: middle;
+    margin: 0 .5rem;
+}
+
+Header hr{
+Border-bottom: 1px solid;
+Border-top:0;
+Border-left:0;
+Border-right:0;
+Width:50%;
+Padding-top: 0.5rem;} 
+
+@media(min-width:768px){
+ Header hr{ 
+   Width:30%;
+  }
+}
+
+
+.wrapper h1{
+  font-size: 3.15rem;
+  Color: #d2ba87;
+  margin-bottom:0;
+  padding: 0.625rem;
+}
+@media(min-width:768px){
+  .wrapper h1{
+    font-size:7rem;
+    margin-top:1.5rem;
+    margin-bottom:1.5rem;
+}
+}
+
+header h2{
+font-size: 1.25rem;
+Letter-spacing: 0.15rem;
+font-weight: 400;
+}
+
+@media(min-width:768px){
+  header h2{
+    text-transform: uppercase;
+  }
+}
+
+.date{
+  font-size: 1.5rem;
+  letter-spacing: 0.15rem;
+}
+
+/*Locations from here*/
+
+.locations {
+  width: 100vw;
+  text-align: center;
+  margin-top:1.5rem;
+  margin-bottom:3rem;
+display: block;
+}
+
+
+.ceremony,.photos,.party{
+  display: block;
+  width:100vw;
+  height: auto;
+  text-align:center;
+  
+}
+
+@media(min-width:768px){
+  .ceremony,.photos,.party{
+  display: inline-block;
+    width:30%;
+    height:auto;
+  }
+  .locations hr{
+    display: none;
+  }
+ 
+}
+
+.locations figcaption {
+  font-family: 'mulish';
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+figure{
+    padding: 1.25rem;
+}
+
+.locations hr{
+  width: 25%;
+  border: 1.5px solid #444349;
+  background-color: #444349;
+}
+
+
+
+/*Program from here*/
+
+.program{
+  color: #d2ba87;
+  display:block;
+  text-align:center;
+  background-color: hsla(100,0%,0%,.6);
+  width: 100vw;
+  margin: 1.5rem 0;
+  padding: 0.8rem 0;
+  height:auto;
+}
+
+
+@media (min-width:768px){
+  
+  .program-wrapper{
+    display:block;
+    width: 30vw;
+    margin: 0 auto;
+  }
+ .program-headline{
+   display:block;
+    margin:0 auto;
+    Width: 30vw;
+   
+  }
+  .program h1{
+    margin-bottom:0;
+  }
+}
+.program p, ul{
+  text-align: left;
+  padding: 1rem ;
+  font-family: 'mulish';
+}
+
+.program p{
+  font-size: 1.125rem;
+  font-style: italic;
+}
+.program ul{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.025rem;
+  list-style: none;
+}
+
+
+/*Gifts from here*/
+.gifts figcaption, p {
+  font-family: 'libre baskerville';
+  font-size: 100%;
+}
+  
+.gifts{
+  margin-bottom: 1.5rem;
+  text-align: center;
+  display: table;
+  width:100vW;
+}
+.gifts-wrapper{
+  display:table-cell;
+  vertical-align: middle;
+}
+.gifts figure{
+  display:block;
+  width: 100vw;
+   margin: 0 auto; 
+
+  
+}
+@media(min-width:768px){
+  .gifts figure{
+    width:100%;
+    margin: 0 auto;
+  }
+}
+.gifts h1{
+  padding:1.5rem;
+  margin-top: -1.5rem;
+  margin-bottom: 1rem;
+}
+/*Q&A from here*/
+.travel, .food,.other{
+  display: block;
+  width:100vw;
+  height: auto;
+  text-align:center;
+ 
+}
+
+@media(min-width:768px){
+ .travel, .food,.other{
+  display: inline-block;
+    width:30vw;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .5rem;
+  }
+  
+  .qa hr{
+    display:none;
+  }
+  .qa{
+    display:table;
+    width:100vw;
+    
+    height:auto;
+    text-align:center;
+  }
+  .travel-wrapper,.food-wrapper,.other-wrapper{
+    display:table-cell;
+    vertical-align:middle;
+    width:28vw;
+  }
+  .qa h2{
+    text-align:left;
+    padding-left: 0.825rem;
+  }
+}
+
+.qa {
+  color: #d2ba87;
+  background-color: hsla(100,0%,0%,.6);
+  width: 100vw;
+  padding:0.5rem 0;
+ 
+}
+.qa section{
+  padding:0 1rem;
+  margin: 1rem auto;
+  
+}
+
+.qa p{
+  font-family: 'mulish';
+  text-align:left;
+  margin-bottom:1.5rem;
+  font-size:1rem;
+  line-height: 1.5;
+  letter-spacing: 0.0125rem;
+}
+
+.qa .strong{
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.qa hr{
+  margin-bottom: 2rem;
+  width: 50%;
+  border-bottom: 2px solid;
+}
+
+.qa h2{
+  font-weight:normal;
+  margin-bottom:2.5rem;
+}
+
+
+/*Contacts from here*/
+
+.contacts{
+  display:table;
+  width: 100vw;
+  text-align: center;
+  margin: 0 auto;
+}
+.contacts-wrapper{
+  display:table-cell;
+  width:100vw;
+  margin: 0 auto;
+  vertical-align: middle;
+  height:auto;
+}
+@media(min-width:768px){
+  
+.contacts{
+  width:100vw;
+  margin: 0 auto;
+  margin-bottom:3rem;
+}
+ .contacts  h1{
+  margin-top:1.5rem;
+  margin-bottom:-0.5rem;
+  }
+}
+.contacts p{
+  padding: 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+/*Footer from here*/
+
+footer{
+  display:table;
+}
+.footer p {
+  font-family: 'mulish';
+  background-color: #606060;
+  width: 100vw;
+  height:10vh;
+  text-align: center;
+  font-size:0.875rem;
+  color: #fff;
+  display:table-cell;
+  vertical-align:middle;
+  line-height:1.5;
+ }
+
+@media (min-width: 768px) {
+  footer {
+    min-height: 7vh;
+  }
+}
